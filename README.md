@@ -9,6 +9,6 @@
 5. 设置composer.json中的autoload使http://localhost:8008/exceptions.php可以正常抛出异常，ComposerLearn\ExceptionOne类位于src/Exceptions.php中
 6. 设置composer.json中的autoload使http://localhost:8008/people.php可以正常访问(psr-4)，ComposerLearn\People类位于src/People.php中
 
-＃ 参考文献
+# 参考文献
 1. [composer dump-autoload](https://getcomposer.org/doc/03-cli.md#dump-autoload)
 2. [composer validate](https://getcomposer.org/doc/03-cli.md#validate)
