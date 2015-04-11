@@ -1,0 +1,16 @@
+{
+    "name": "huying/composer-learn",
+    "license": "MIT",
+    "description": "composer学习项目",
+    "keywords": ["composer", "learn"],
+    "authors": [
+        {
+            "name": "xjchen",
+            "email": "xchenxujian@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "minimum-stability": "stable"
+}
