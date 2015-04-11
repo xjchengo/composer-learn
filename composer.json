@@ -12,5 +12,12 @@
     "require": {
         "php": ">=5.4.0"
     },
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "classmap": ["src/Exceptions.php"],
+        "prs-4": {
+            "ComposerLearn\\": "src/"
+        }
+    },
     "minimum-stability": "stable"
 }
