@@ -4,12 +4,61 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "95b61db1e55d9fd0f3004007ea092fff",
-    "packages": [],
+    "hash": "31fdbaddd10b282c32a5326d4dad352d",
+    "packages": [
+        {
+            "name": "brandonwamboldt/utilphp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brandonwamboldt/utilphp.git",
+                "reference": "a718b375cc54bdc13412de641e3cc5ce216c27f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brandonwamboldt/utilphp/zipball/a718b375cc54bdc13412de641e3cc5ce216c27f5",
+                "reference": "a718b375cc54bdc13412de641e3cc5ce216c27f5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "utilphp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brandon Wamboldt",
+                    "email": "brandon.wamboldt@gmail.com"
+                }
+            ],
+            "description": "util.php is a collection of useful functions and snippets that you need or could use every day, designed to avoid conflicts with existing projects",
+            "homepage": "https://github.com/brandonwamboldt/utilphp",
+            "keywords": [
+                "collection",
+                "helpers",
+                "php",
+                "utility"
+            ],
+            "time": "2015-02-25 13:52:48"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "brandonwamboldt/utilphp": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

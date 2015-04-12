@@ -8,7 +8,8 @@
 4. 设置composer.json中的autoload使http://localhost:8008/functions.php可以正常访问，hello_world函数位于src/helpers.php中
 5. 设置composer.json中的autoload使http://localhost:8008/exceptions.php可以正常抛出异常，ComposerLearn\ExceptionOne类位于src/Exceptions.php中
 6. 设置composer.json中的autoload使http://localhost:8008/people.php可以正常访问(psr-4)，ComposerLearn\People类位于src/People.php中
-7. 删除项目，使用create-project安装1.2.0版，使http://localhost:8008/people.php可以正常访问
+7. 在项目根目录下运行git checkout 1.2.0，使http://localhost:8008/people.php可以正常访问
+8. 在项目根目录下运行git checkout 1.3.0，安装最新的stable版本的brandonwamboldt/utilphp，使http://localhost:8008/utils.php可以正常访问
 
 # 参考文献
 1. [composer dump-autoload](https://getcomposer.org/doc/03-cli.md#dump-autoload)
