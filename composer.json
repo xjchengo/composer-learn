@@ -13,7 +13,9 @@
         "php": ">=5.4.0"
     },
     "autoload": {
-        "prs-4": {
+        "files": ["src/"],
+        "classmap": ["src/Exceptions.php"],
+        "psr-4": {
             "ComposerLearn\\": "src/"
         }
     },
