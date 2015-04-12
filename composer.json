@@ -12,5 +12,10 @@
     "require": {
         "php": ">=5.4.0"
     },
+    "autoload": {
+        "prs-4": {
+            "ComposerLearn\\": "src/"
+        }
+    },
     "minimum-stability": "stable"
 }
